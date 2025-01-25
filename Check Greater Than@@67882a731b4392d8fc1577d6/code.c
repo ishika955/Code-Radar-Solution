@@ -5,10 +5,10 @@ int main() {
     scanf("%d ",&first_no.);
     scanf("%d ",&sec_no.);
     if (first_no. > sec_no.){
-        printf("True");
+        printf("True\n");
     }
     else{
-        printf("False");
+        printf("False\n");
     }
     return 0;
 }
