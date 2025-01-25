@@ -2,7 +2,7 @@
 int main(){
     int number_1,number_2;
     scanf("%d %d",&number_1,&number_2);
-    int (number_1 % number_2 == 0){
+    if (number_1 % number_2 == 0){
         printf("Yes");
     }
     else if(number_1% number_2!=0){
