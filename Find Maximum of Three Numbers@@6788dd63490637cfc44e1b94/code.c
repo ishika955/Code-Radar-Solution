@@ -9,9 +9,7 @@ int main(){
     }
     else if(n2>n1 && n2>n3){
         printf(n2);
-    }
-    else{
-        printf(n3);
+    }else{printf(n3);
 }
- return0;
+return 0;
 }
