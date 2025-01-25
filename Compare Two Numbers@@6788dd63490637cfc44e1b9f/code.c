@@ -9,7 +9,7 @@ int main(){
         printf("First");
     }
     else{
-        printf("Secong")
+        printf("Second")
     }
     return 0;
 }
