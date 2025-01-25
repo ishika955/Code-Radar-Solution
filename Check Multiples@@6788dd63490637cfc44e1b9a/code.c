@@ -5,7 +5,7 @@ int main(){
     int (number_1 % number_2 == 0){
         printf("Yes");
     }
-    else if(){
+    else if(number_1% number_2!=0){
         printf("No");
     }
     return 0;
