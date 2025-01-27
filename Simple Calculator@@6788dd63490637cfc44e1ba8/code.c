@@ -2,6 +2,7 @@
 int main() {
     int number1,number2;
     char ch;
+    scanf("%d %d %c",&number1,&number2,&ch);
     int sum=(number1+number2);
     int sub=(number1-number2);
     int multiply=(number1*number2);
