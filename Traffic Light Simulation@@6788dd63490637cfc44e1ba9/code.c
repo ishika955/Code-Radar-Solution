@@ -8,7 +8,7 @@ int main(){
     else if(signal=='Y'){
         printf("Slow Down");
     }
-    else if(signal=='G'){
+    else if(signal=="G"){
         printf("Go");
     }
     else{printf("Invalid input");
