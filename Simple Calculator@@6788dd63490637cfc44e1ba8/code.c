@@ -12,6 +12,7 @@ int main() {
          case '-':printf("%d\n",sub);break;
          case '*':printf("%d\n",multiply);break;
          case '/':printf("%d\n",div);break;
+         default:printf("error");
     }
     return 0;
 }
