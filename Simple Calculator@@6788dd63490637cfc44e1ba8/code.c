@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main() {
-    int number1,number2;
+    int n1,n2;
     char ch;
-    scanf("%d %d %c",&number1,&number2,&ch);
-    int sum=number1 + number2;
-    int sub=number1 - number2;
-    int multiply = number1 * number2;
-    int div=number1/number2;
+    scanf("%d %d %c",&n1,&n2,&ch);
+    int sum = n1 + n2;
+    int sub = n1 - n2;
+    int multiply = n1 * n2;
+    int div=n1/n2;
     switch (ch){
-         case '+':printf("%d",sum);break;
-         case '-':printf("%d",sub);break;
-         case '*':printf("%d",multiply);break;
-         case '/':printf("%d",div);break;
+         case '+':printf("%d\n",sum);break;
+         case '-':printf("%d\n",sub);break;
+         case '*':printf("%d\n",multiply);break;
+         case '/':printf("%d\n",div);break;
     }
     return 0;
 }
