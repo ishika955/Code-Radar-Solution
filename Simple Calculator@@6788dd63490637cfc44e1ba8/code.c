@@ -11,7 +11,7 @@ int main() {
          case '+':printf("%d\n",sum);break;
          case '-':printf("%d\n",sub);break;
          case '*':printf("%d\n",multiply);break;
-         case '/':printf("%f\n",div);break;
+         case '/':printf("%.2f\n",div);break;
          default:printf("error");}
          return 0;
 }
