@@ -8,10 +8,10 @@ int main() {
     int multiply = n1 * n2;
     int div = n1 / n2;
     switch (ch){
-         case '+':printf("%d\n",sum);break;
-         case '-':printf("%d\n",sub);break;
-         case '*':printf("%d\n",multiply);break;
-         case '/':printf("%d\n",div);break;
+         case +:printf("%d\n",sum);break;
+         case -:printf("%d\n",sub);break;
+         case *:printf("%d\n",multiply);break;
+         case /:printf("%d\n",div);break;
          default:printf("error");}
          return 0;
 }
