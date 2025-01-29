@@ -3,12 +3,12 @@ int main() {
     int number1,number2;
     scanf("%d %d",&number1,&number2);
     if(!(number1<0) && !(number2<0)){
-        printf("True\n");
+        printf("False\n");
     }
     else if(!(number1>0)&& !(number2>0)){
-        printf("True\n");
+        printf("False\n");
     }
     else{
-    printf("False\n");}
+    printf("True\n");}
     return 0;
 }
