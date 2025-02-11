@@ -1,5 +1,5 @@
 #include<stdio.h>
-int msin(){
+int main(){
     int N;
     scanf("%d",&N);
     int arr[N];
@@ -23,6 +23,7 @@ int msin(){
         }
       
 
-    }printf("%d",sec_max);
+    }
+    printf("%d",sec_max);
     return 0;
 }
