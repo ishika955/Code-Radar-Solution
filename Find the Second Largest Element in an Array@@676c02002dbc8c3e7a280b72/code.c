@@ -8,18 +8,21 @@ int main(){
     }
     int max=arr[0];
     int sec_max=arr[0];
-    for(int j=-1;j<N;j++){
+    for(int j=0;j<N;j++){
         if(max<arr[j]){
             max=arr[j];
             continue;
         }
     }
-    for(int j=-1;j<N;j++){
+    for(int j=0;j<N;j++){
         if (max==arr[j]){
             continue;
         }
         else if(sec_max<arr[j]){
             sec_max=arr[j];
+        }
+        else{
+            sec_max= -1;
         }
       
 
