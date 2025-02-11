@@ -10,15 +10,15 @@ int main(){
     int max=arr[0];
     for (int j=0;j<N;j++){
          if arr[0]>arr[j]{
-            arr[0]=arr[j];
+            min=arr[i];
          }
-         printf("%d ",arr[j]);
+        
     }
     for (int j=0;j<N;j++){
         if arr[0]<arr[j]{
-            arr[0]=arr[j];
+            max=arr[j];
         }
-        printf("%d ",arr[j]);
+        printf("%d %d",min,max);
     }
     return 0;
 }
