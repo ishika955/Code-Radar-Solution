@@ -10,7 +10,7 @@ int main(){
     int max=arr[0];
     for (int j=0;j<N;j++){
          if arr[0]>arr[j]{
-            min=arr[i];
+            min=arr[j];
          }
         
     }
