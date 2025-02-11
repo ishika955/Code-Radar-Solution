@@ -11,10 +11,12 @@ int msin(){
     for(int j=0;j<N;j++){
         if(max<arr[j]){
             max=arr[j];
+            continue;
         }
     }
     for(int j=0;j<N;j++){
         if (max==arr[j]){
+            continue;
         }
         else if(sec_max<arr[j]){
             sec_max=arr[j];
