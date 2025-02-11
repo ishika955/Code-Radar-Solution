@@ -5,17 +5,17 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
-    for (int i=0;i<N;i++){
-         if arr[0]>arr[i]{
-            arr[0]=arr[i];
+    for (int j=0;j<N;j++){
+         if arr[0]>arr[j]{
+            arr[0]=arr[j];
          }
-         printf("%d",arr[i]);
+         printf("%d ",arr[j]);
     }
-    for (int i=0;i<N;i++){
-        if arr[0]<arr[i]{
-            arr[0]=arr[i];
+    for (int j=0;j<N;j++){
+        if arr[0]<arr[j]{
+            arr[0]=arr[j];
         }
-        printf("%d",arr[i]);
+        printf("%d",arr[j]);
     }
     return 0;
 }
