@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     int N;arr[N];
+    scanf("%d",&N);
     for(int i=0;i<N;i++){
     scanf("%d ",&arr[i]);
     }
@@ -13,6 +14,7 @@ int main(){
         else{
             odd_count+=1;
         }
-    }printf("%d %d",even_count,odd_count);
+    }
+    printf("%d %d",even_count,odd_count);
     return 0;
 }
