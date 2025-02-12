@@ -8,6 +8,7 @@ int main(){
     }
     int max=arr[0];
     int sec_max= arr[0];
+    int same=-1;
     for(int j=0;j<N;j++){
         if(max<arr[j]){
             max=arr[j];
@@ -23,7 +24,7 @@ int main(){
         }
         }
         else if{
-           printf("%d",-1);
+           printf("%d",same);
         }
     }
     printf("%d",sec_max);
