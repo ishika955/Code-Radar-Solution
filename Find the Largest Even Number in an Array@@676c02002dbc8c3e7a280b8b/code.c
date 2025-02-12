@@ -5,9 +5,8 @@ int main(){
     for (int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
-    int even=arr[i]%2==0;
     for (int i=0;i<N;i++){
-        if(even==arr[i]){
+        if((arr[i]%2==0)==arr[i]){
             printf("%d ",even);
         }
     }
