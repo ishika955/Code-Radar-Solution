@@ -17,12 +17,13 @@ int main(){
     for(int j=0;j<N;j++){
         if (max==arr[j]){
             continue;
-        }
-        else if(sec_max<arr[j]){
+        
+        if(sec_max<arr[j]){
             sec_max=arr[j];
         }
-        else if(arr[j]==arr[j]){
-            printf(-1);
+        }
+        else if{
+           printf("%d",sec_max=-1);
         }
     }
     printf("%d",sec_max);
