@@ -5,9 +5,6 @@ int main(){
     int arr[N];
     for(int i=0;i<N;i++){
     scanf("%d ",&arr[i]);}
-    if (N<2){
-        printf("-1\n");
-    }
     int max=arr[0];
     int sec_max= -1;
     for(int j=0;j<N;j++){
