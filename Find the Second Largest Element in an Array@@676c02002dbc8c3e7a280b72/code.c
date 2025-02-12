@@ -23,9 +23,7 @@ int main(){
             sec_max=arr[j];
         }
         
-        else {
-           printf("%d",same);
-        }
+        
     }
     printf("%d",sec_max);
     return 0;
