@@ -18,12 +18,12 @@ int main(){
     for(int j=0;j<N;j++){
         if (max==arr[j]){
             continue;
-        
-        if(sec_max<arr[j]){
+        }
+        else if(sec_max<arr[j]){
             sec_max=arr[j];
         }
-        }
-        else if{
+        
+        else {
            printf("%d",same);
         }
     }
