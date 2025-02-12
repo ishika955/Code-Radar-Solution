@@ -21,7 +21,9 @@ int main(){
         else if(sec_max<arr[j]){
             sec_max=arr[j];
         }
-
+        else if(arr[j]==arr[j]){
+            printf(-1);
+        }
     }
     printf("%d",sec_max);
     return 0;
