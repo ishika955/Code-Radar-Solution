@@ -11,6 +11,7 @@ int main(){
            
         }
          printf("%d ",arr[i]);
+         break;
     }
     
     return 0;
