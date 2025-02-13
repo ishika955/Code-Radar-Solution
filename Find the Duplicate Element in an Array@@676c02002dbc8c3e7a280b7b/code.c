@@ -10,10 +10,12 @@ int main(){
     for(int i=0;i<N;i++){
         if(dupe==arr[i]){
             printf("%d",dupe);
+            break;
            }
         else{ 
         dupe=arr[i];
-         printf("%d",dupe);
+        printf("%d",dupe);
+        break;
         }
     }
     
