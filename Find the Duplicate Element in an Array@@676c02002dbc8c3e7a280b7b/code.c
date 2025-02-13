@@ -12,8 +12,8 @@ int main(){
         if(arr[i]==arr[j+1]){
         }
     
- }
- } printf("%d",arr[i]);
+ }printf("%d",arr[i]);
+ } 
             
     
     return 0;
