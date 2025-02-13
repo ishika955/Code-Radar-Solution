@@ -11,8 +11,8 @@ int main(){
             if(arr[j]!=arr[j+1]){
                continue;
             }
-        }
+        }printf("%d ",arr[j]);
     }
-    printf("%d ",arr[j]);
+    
     return 0;
 }
