@@ -11,6 +11,7 @@ int main(){
     for(int i=0;i<N;i++){
         if(dupe==arr[i]){
             count+=1;
+            dupe=arr[i];
         }
     }
     printf("%d",count);
