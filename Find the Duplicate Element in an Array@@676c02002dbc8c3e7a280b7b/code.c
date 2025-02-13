@@ -6,10 +6,9 @@ int main(){
     for(int i=0;i<N;i++){
     scanf("%d",&arr[i]);
     }
-    int dupe=arr[0];
     for(int i=0;i<N;i++){
          for(int j=0;i<N;j++){
-        if(arr[i]==arr[j]){
+        if(arr[i]==arr[j+1]){
         }
     
  }
