@@ -14,7 +14,7 @@ int main(){
             break;
            }
         else{ 
-        dupe=arr[j];
+        dupe=arr[i];
         printf("%d",dupe);
         break;
         }
