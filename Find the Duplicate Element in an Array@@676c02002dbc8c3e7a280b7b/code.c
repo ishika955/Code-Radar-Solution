@@ -9,7 +9,7 @@ int main(){
     int dupe=arr[0];
     for(int i=0;i<N;i++){
         for(int j=0;j<N;j++){
-        if(dupe==arr[j]){
+        if(dupe==arr[i]){
             printf("%d",dupe);
             break;
            }
