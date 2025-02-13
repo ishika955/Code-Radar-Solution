@@ -10,7 +10,7 @@ int main(){
         for(int j=i;j<N-1;j++){
             if(arr[i]==arr[j+1]){
                
-            printf("%d ",arr[j]);}
+            printf("%d ",arr[i]);}
         }
     }
     
