@@ -8,7 +8,7 @@ int main(){
     }
     int dupe=arr[0];
     for(int i=0;i<N;i++){
-        if(dupe==arr[i]){
+        if(dupe!=arr[i]){
             dupe=arr[i];
         }
          printf("%d",dupe);
