@@ -8,16 +8,18 @@ int main(){
     }
     int dupe=arr[0];
     for(int i=0;i<N;i++){
-        if(dupe==arr[i]){
+        for(int j=0;j<N;j++){
+        if(dupe==arr[j]){
             printf("%d",dupe);
             break;
            }
         else{ 
-        dupe=arr[i];
+        dupe=arr[j];
         printf("%d",dupe);
         break;
         }
     }
+ }
     
     return 0;
 }
