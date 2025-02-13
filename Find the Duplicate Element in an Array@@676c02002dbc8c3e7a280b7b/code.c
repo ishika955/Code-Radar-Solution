@@ -13,7 +13,8 @@ int main(){
            }
         else{ 
         dupe=arr[i];
-        } printf("%d",dupe);
+         printf("%d",dupe);
+        }
     }
     
     return 0;
