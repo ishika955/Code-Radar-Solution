@@ -12,6 +12,7 @@ int main(){
             dupe=arr[i];
         }
          printf("%d",dupe);
+         break;
     }
     
     return 0;
