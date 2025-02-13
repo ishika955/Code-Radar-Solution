@@ -14,7 +14,7 @@ int main(){
             dupe=arr[i];
         }
     }
-    printf("%d",arr[i]);
+    printf("%d",dupe);
     
     return 0;
 }
