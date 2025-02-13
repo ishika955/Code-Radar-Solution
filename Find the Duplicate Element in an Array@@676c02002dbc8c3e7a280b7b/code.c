@@ -10,8 +10,8 @@ int main(){
         for(int j=0;j<i;j++){
             if(arr[j]!=arr[j+1]){
                continue;
-            }
-        }printf("%d ",arr[j]);
+            }printf("%d ",arr[j]);
+        }
     }
     
     return 0;
