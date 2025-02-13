@@ -15,9 +15,9 @@ int main(){
            }
         else{ 
         dupe=arr[i];
+        }
         printf("%d",dupe);
         break;
-        }
     }
  }
     
