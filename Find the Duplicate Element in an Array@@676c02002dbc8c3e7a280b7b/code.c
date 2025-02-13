@@ -12,9 +12,9 @@ int main(){
         if(arr[j]==arr[j+1]){
         }
     
- }printf("%d",arr[i]);
+ }
  } 
-            
+      printf("%d",arr[i]);      
     
     return 0;
 }
