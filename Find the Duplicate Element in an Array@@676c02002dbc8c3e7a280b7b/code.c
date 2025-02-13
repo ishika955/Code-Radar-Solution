@@ -9,11 +9,12 @@ int main(){
     for(int i=0;i<N;i++){
          for(int j=0;i<N;j++){
         if(arr[j]==arr[j+1]){
+             printf("%d",arr[i]);      
+    
         }
     
  }
  } 
-      printf("%d",arr[i]);      
-    
+     
     return 0;
 }
