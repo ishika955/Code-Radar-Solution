@@ -9,7 +9,6 @@ int main(){
         int larg=arr[i];
         if((larg<arr[i+1])&&(arr[i+1]>arr[i+2])){
              printf("%d",arr[i+1]);
-             break;
         }
         if(arr[0]>arr[i]){
             printf("%d",arr[0]);
