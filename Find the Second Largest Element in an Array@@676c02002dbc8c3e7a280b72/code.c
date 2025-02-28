@@ -18,10 +18,9 @@ int main(){
             continue;}}
     for(int j=0;j<N;j++){
         if (max>arr[j] && arr[j]>sec_max){
-            sec_max=arr[j];}
+            sec_max=arr[j];}}
         if(sec_max==INT_MIN){
             printf("-1");
-        }
         }
     printf("%d",sec_max);
     return 0;}
