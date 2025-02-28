@@ -6,11 +6,11 @@ int isPrime(int num){
         for(int j=1;j<=i;j++){
             if(j%i==0){
                 c++;
-            }
+            }}
             if(c==2){
                 printf("1");
             }
-        }
+
     printf("0");
     }
 }
