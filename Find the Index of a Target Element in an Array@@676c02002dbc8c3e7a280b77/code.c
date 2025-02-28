@@ -11,10 +11,10 @@ int main(){
     int length=sizeof(arr)/sizeof(arr[0]);
     for(int i=0;i<length;i++){
         if(arr[i]==target){
-            printf("%d",i);
+            printf("%d\n",i);
         }
-        else if(arr[i]!=target){
-            printf("%d",-1);
+        if(arr[i]!=target){
+            printf("%d\n",-1);
         }
     }
     return 0;
