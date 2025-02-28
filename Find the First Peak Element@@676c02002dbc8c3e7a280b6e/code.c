@@ -7,7 +7,7 @@ int main(){
     scanf("%d\n",&arr[i]);}
     for(int i=0;i<n;i++){
         int larg=arr[i];
-         if(arr[0]>arr[i+1]){
+         if(arr[0]>arr[i]){
             printf("%d",arr[0]);
             break;
         }
