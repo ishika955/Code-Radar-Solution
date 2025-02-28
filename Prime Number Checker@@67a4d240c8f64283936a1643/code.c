@@ -8,9 +8,7 @@ int isPrime(int num){
                 c++;
             }}
             if(c==2){
-                printf("1");
-            }
-
-    printf("0");
+                printf("1");}
+            printf("0");
     }
 }
