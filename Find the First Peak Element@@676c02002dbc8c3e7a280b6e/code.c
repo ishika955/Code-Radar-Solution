@@ -12,7 +12,7 @@ int main(){
              break;
         }
         else if(larg>arr[i+1]){
-            printf("%d",arr[i]);
+            printf("%d",larg);
             break;
         }
 
