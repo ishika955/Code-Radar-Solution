@@ -11,7 +11,7 @@ int main(){
              printf("%d",arr[i+1]);
              break;
         }
-        if(arr[0]>arr[i])||(arr[n-1]>arr[n-2]){
+        if(arr[0]>arr[i])||(arr[i-1]>arr[i-2]){
             printf("%d",arr[0]);
             break;
         }
