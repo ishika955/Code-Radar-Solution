@@ -1,4 +1,4 @@
 #include<stdio.h>
-int bubbleSort(int arr,int n){
-    
+int bubbleSort(arr,int n){
+
 }
