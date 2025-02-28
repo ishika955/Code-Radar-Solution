@@ -12,8 +12,10 @@ int main(){
     for(int i=0;i<length;i++){
         if(arr[i]==target){
             printf("%d\n",i);
-            break;
+            break;}
+            else{
+                printf("%d\n",-1);
+            }
         }
-    }
     return 0;
 }
