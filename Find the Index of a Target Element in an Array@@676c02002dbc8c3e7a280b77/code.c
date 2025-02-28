@@ -14,11 +14,10 @@ int main(){
         if(arr[i]==target){
             index=i;
             break;}
-        }
         if(index!= -1){
             printf("%d\n",i);
         }
         else{
             printf("%d\n",-1);
-        }
+        }}
     return 0;}
