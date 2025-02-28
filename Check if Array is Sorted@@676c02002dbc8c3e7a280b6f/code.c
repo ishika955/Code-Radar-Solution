@@ -10,6 +10,7 @@ int main(){
          int larg=arr[i];
            if (larg<arr[i+1]){
             printf("Sorted");
+            break;
            }
            else{
             printf("Not Sorted");
