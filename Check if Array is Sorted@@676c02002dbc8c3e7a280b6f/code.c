@@ -14,6 +14,7 @@ int main(){
            }
            else{
             printf("Not Sorted");
+            break;
            }
     }
    return 0;
