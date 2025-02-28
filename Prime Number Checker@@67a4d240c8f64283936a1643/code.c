@@ -10,9 +10,9 @@ int isPrime(int num){
             if(c==2){
                 printf("1");
             }
-    else{
+        }
+        else{
             printf("0");
             }
-        }
     }
 }
