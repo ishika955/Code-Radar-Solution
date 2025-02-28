@@ -11,9 +11,5 @@ int main(){
              printf("%d",arr[i+1]);
              break;
         }
-        if((larg<=arr[i+1])||(arr[i+1]>=arr[i+2])){
-            printf("-1");
-            break;
-        }
     }return 0;
 }
