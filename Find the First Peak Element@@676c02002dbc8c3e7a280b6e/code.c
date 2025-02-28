@@ -8,8 +8,12 @@ int main(){
     for(int i=0;i<n;i++){
         int larg=arr[i];
         if((larg<arr[i+1])&&(arr[i+1]>arr[i+2])){
-             printf("%d",arr[i]);
+             printf("%d",arr[i+1]);
              break;
+        }
+        if(larg>arr[i+1]){
+            printf("%d",arr[i]);
+            break;
         }
 
     }return 0;
