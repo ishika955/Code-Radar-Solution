@@ -15,6 +15,7 @@ int main(){
             break;}
             else{
                 printf("%d\n",-1);
+                break;
             }
         }
     return 0;
