@@ -15,6 +15,9 @@ int main(){
             printf("%d",-1);
             break;
         }
+        if(larg>arr[i+1]){
+            printf("%d",larg);
+        }
 
     }return 0;
 }
