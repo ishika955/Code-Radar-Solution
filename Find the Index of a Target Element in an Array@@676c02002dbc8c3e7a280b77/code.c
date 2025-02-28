@@ -16,9 +16,9 @@ int main(){
             break;}
         }
         if(index!= -1){
-            printf("%d\n",-1);
+            printf("%d\n",i);
         }
         else{
-            printf("%d\n",i);
+            printf("%d\n",-1);
         }
     return 0;}
