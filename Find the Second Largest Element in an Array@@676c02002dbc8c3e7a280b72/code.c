@@ -24,5 +24,4 @@ int main(){
         }else{
             printf("%d\n",sec_max);
         }
-    printf("%d",sec_max);
     return 0;}
