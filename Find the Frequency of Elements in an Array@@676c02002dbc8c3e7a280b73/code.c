@@ -11,9 +11,8 @@ int main(){
         for (int j=0;j<n;j++){
             if (arr[j]==arr[i]){
                     count++;
-            }
+            }printf("%d %d\n",arr[i],count);
         }
-     printf("%d %d\n",arr[i],count);
     }
     return 0;
 }
