@@ -12,9 +12,11 @@ int main(){
     for(int i=0;i<length;i++){
         if(arr[i]==target){
             printf("%d\n",i);
+            break;
         }
         if(arr[i]!=target){
             printf("%d\n",-1);
+            break;
         }
     }
     return 0;
