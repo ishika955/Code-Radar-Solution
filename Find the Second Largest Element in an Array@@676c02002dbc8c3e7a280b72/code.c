@@ -5,9 +5,10 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++){
-    scanf("%d ",&arr[i]);}
+    scanf("%d",&arr[i]);}
     if(N<2){
         printf("%d",-1);
+        return 0;
     }
     int max=arr[0];
     int sec_max= INT_MIN;
@@ -16,9 +17,7 @@ int main(){
             max=arr[j];
             continue;}}
     for(int j=0;j<N;j++){
-        if (max==arr[j]){
-            continue;}
-        else if(sec_max<arr[j]){
+        if (max>arr[j] && arr[j]>sec_max){
             sec_max=arr[j];}
         if(sec_max==INT_MIN){
             printf("-1");
