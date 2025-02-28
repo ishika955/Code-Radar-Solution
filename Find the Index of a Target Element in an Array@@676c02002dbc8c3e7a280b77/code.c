@@ -13,11 +13,11 @@ int main(){
     for(int i=0;i<length;i++){
         if(arr[i]==target){
             index=i;
-            break;}
+            break;}}
         if(index!= -1){
-            printf("%d\n",i);
+            printf("%d\n",index);
         }
         else{
             printf("%d\n",-1);
-        }}
+        }
     return 0;}
