@@ -13,10 +13,6 @@ int main(){
         if(arr[i]==target){
             printf("%d\n",i);
             break;}
-            else{
-                printf("%d\n",-1);
-                break;
-            }
         }
     return 0;
 }
