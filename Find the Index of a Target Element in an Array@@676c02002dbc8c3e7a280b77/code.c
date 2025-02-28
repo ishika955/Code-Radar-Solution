@@ -11,14 +11,14 @@ int main(){
     scanf("%d",&target);
     int length=sizeof(arr)/sizeof(arr[0]);
     for(int i=0;i<length;i++){
-        if(index!= -1){
         if(arr[i]==target){
-            printf("%d\n",i);
-            break;}}
-            else{
-                printf("%d\n",-1);
-                break;
-            }
+            index=i;
+            break;}
         }
-    return 0;
-}
+        if(index!= -1){
+            printf("%d\n",-1);
+        }
+        else{
+            printf("%d\n",i);
+        }
+    return 0;}
