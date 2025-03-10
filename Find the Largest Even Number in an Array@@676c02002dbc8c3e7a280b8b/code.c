@@ -13,9 +13,13 @@ int main(){
             even=arr[i];
            }
         }
-    }printf("%d ",even);
-     
 
-    
+    }
+    if(even!=-1){
+    printf("%d ",even);}
+    else{
+        printf("-1");
+    }
+
     return 0;
 }
