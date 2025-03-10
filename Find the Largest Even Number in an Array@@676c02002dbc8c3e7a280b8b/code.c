@@ -4,22 +4,16 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     for (int i=0;i<N;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d ",&arr[i]);
     }
-    int even=arr[0];
+    int even=-1;
     for (int i=0;i<N;i++){
         if(arr[i]%2==0){
-           if(even== -1||even<arr[i]){
+           if(even<arr[i]){
             even=arr[i];
            }
         }
-
-    }
-    if(even!=-1){
-    printf("%d ",even);}
-    else{
-        printf("-1");
-    }
+    }printf("%d ",even);
 
     return 0;
 }
