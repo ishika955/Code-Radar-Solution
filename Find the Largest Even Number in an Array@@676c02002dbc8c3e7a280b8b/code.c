@@ -8,7 +8,7 @@ int main(){
     }
     int even=arr[0];
     for (int i=0;i<N;i++){
-        else if(arr[i]%2==0){
+        if(arr[i]%2==0){
            if(even<arr[i]){
             even=arr[i];
            }
