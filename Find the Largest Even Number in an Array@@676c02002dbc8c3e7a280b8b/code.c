@@ -14,12 +14,12 @@ int main(){
            }
         }
     }printf("%d ",even);
-    break;
     for(int i=0;i<N;i++){
         if(arr[i]%2 !=0){
-        }
-    }printf("-1");
+            printf("-1");
             break;
+        }
+    }
 
     
     return 0;
