@@ -12,5 +12,11 @@ int main(){
             printf("%d",array[j]);
          }
     }
+    if(arr[n]==array[n]){
+        printf("YES");
+    }
+    else{
+        printf("NO")
+    }
     return 0;
 }
