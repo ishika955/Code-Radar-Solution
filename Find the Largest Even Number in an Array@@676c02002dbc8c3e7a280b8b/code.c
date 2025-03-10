@@ -12,7 +12,7 @@ int main(){
             printf("-1");
             break;
         }
-        if(arr[i]%2==0){
+        else if(arr[i]%2==0){
            if(even<arr[i]){
             even=arr[i];
            }
