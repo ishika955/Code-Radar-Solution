@@ -11,8 +11,9 @@ int main(){
         if(arr[i]%2==0){
            if(even<arr[i]){
             even=arr[i];
+            printf("%d ",even);
            }
-        }printf("%d ",even);
+        }
         else{
             printf("-1");
         }
