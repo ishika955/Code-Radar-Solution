@@ -14,6 +14,11 @@ int main(){
            }
         }
     }printf("%d ",even);
+    for(int i=0;i<N;i++){
+        if(arr[i]%2 !=0){
+            printf("-1");
+        }
+    }
 
     
     return 0;
