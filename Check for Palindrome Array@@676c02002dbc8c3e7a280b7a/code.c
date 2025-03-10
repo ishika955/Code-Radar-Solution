@@ -11,12 +11,12 @@ int main(){
          for(int j=n;j<0;j++){
             printf("%d",array[j]);
          }
-    }
-    if(arr[n]==array[n]){
+    
+    if(arr[i]==array[j]){
         printf("YES");
     }
     else{
         printf("NO");
-    }
+    }}
     return 0;
 }
