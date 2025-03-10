@@ -12,7 +12,7 @@ int main(){
         if(arr[i]%2==0){
            if(!found||even<arr[i]){
             even=arr[i];
-            founf=1;
+            found=1;
            }
         }
     }
