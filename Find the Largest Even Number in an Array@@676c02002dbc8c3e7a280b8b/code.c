@@ -6,7 +6,7 @@ int main(){
     for (int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
-    even=arr[0];
+    int even=arr[0];
     for (int i=0;i<N;i++){
         if(arr[i]%2==0){
            if(even<arr[i]){
