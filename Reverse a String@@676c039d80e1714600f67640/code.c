@@ -5,7 +5,7 @@ int main(){
     scanf("%s",&str[100]);
     int n= strlen(str);
     for(int i=0;i<n;i++){
-           rev[i]=arr[n-1-i];
+           rev[i]=str[n-1-i];
     }
     rev[n]="\0";
     printf("%s",rev);
