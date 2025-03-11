@@ -10,7 +10,7 @@ int main(){
             if(arr[j]==0){
                 arr[j]==arr[n];
             }
-        }
-     printf("%d ",arr[j]);}
+        
+     printf("%d ",arr[j]);}}
     return 0;
 }
