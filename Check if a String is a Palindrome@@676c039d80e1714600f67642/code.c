@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<n;i++){
          rev[i]=str[n-1-i];
     }
-    if(rev==arr){
+    if(rev==arr[100]){
         printf("Yes");
     }
     else{
