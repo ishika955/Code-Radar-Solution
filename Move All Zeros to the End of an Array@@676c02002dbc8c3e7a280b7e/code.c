@@ -11,6 +11,6 @@ int main(){
                 arr[j]==arr[n];
             }
         }
-     printf("%d",arr[i]);}
+     printf("%d ",arr[j]);}
     return 0;
 }
