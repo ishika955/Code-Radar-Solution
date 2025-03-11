@@ -7,7 +7,6 @@ int main(){
     for(int i=0;i<n;i++){
            rev[i]=str[n-1-i];
     }
-    // rev[n]='\0';
     printf("%s",rev);
     
     return 0;
