@@ -9,6 +9,9 @@ int main(){
         if(str[i]=='e' || str[i]=='i'||str[i]=='o'||str[i]=='u'||str[i]=='a'){
             count+=1;
         }
+         if(str[i]=='E' || str[i]=='I'||str[i]=='O'||str[i]=='U'||str[i]=='A'){
+            count+=1;
+        }
     }
       printf("%d",count);
     return 0;
