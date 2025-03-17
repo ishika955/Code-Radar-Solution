@@ -9,6 +9,7 @@ int main(){
 for(int i=0;i<N;i++){
     if((arr[i]<arr[i+1])|| (arr[i]>arr[i+1])||(arr[i]==arr[i+1])){
         printf("YES");
+        break;
     }
     else{
         printf("NO");
