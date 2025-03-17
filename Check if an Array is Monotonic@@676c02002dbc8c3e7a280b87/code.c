@@ -19,11 +19,11 @@ for(int i=0;i<N-1;i++){
     else if(arr[i]==arr[i+1]){
         isEqual=1;
     }
-} if(isAscending||isDescending||isEqual){
+ if(isAscending||isDescending||isEqual){
         printf("YES");
     }
     else{
         printf("NO");
-    }
+    }}
 return 0;
 }
