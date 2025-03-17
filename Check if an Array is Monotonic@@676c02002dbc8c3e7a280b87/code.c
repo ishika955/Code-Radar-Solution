@@ -13,7 +13,7 @@ for(int i=0;i<N-1;i++){
     if(arr[i]<arr[i+1]){
         isAscending=1;
     }
-    else if(arr[i]<arr[i+1]){
+    else if(arr[i]>arr[i+1]){
         isDescending=1;
     }
     else if(arr[i]==arr[i+1]){
