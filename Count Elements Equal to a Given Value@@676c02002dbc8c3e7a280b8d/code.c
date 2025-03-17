@@ -11,7 +11,7 @@ int main(){
     int count=0;
     for(int i=0;i<N;i++){
          if(i==K){
-             count++;
+             count=count+1;
          }
        printf("%d",count); 
     } 
