@@ -10,9 +10,8 @@ int main(){
     }  
     int count=1;
     for(int i=0;i<N;i++){
-
-         if(i==K){
-             count=count+1;
+        if(i==K){
+             count++;
          }
     }   printf("%d",count); 
     return 0;
