@@ -14,7 +14,6 @@ int main(){
          if(i==K){
              count=count+1;
          }
-       printf("%d",count); 
-    } 
+    }   printf("%d",count); 
     return 0;
 }
