@@ -2,8 +2,8 @@
 int main(){
     int N;
     scanf("%d",&N);
+       int k=0;
     for(int i=0;i<N;i++){
-        int k=0;
         k=N%2;
         printf("%d",K);
     }
