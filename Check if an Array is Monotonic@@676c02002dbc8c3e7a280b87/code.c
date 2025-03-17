@@ -8,7 +8,6 @@ int main(){
 }
 int isAscending=0;
 int isDescending=0;
-int isEqual=0;
 for(int i=0;i<N-1;i++){
     if(arr[i]<arr[i+1]){
         isAscending=1;
@@ -16,10 +15,8 @@ for(int i=0;i<N-1;i++){
     else if(arr[i]>arr[i+1]){
         isDescending=1;
     }
-    else if(arr[i]==arr[i+1]){
-        isEqual=1;
-    }}
- if(isAscending||isDescending||isEqual){
+}
+ if(isAscending||isDescending){
         printf("YES");
     }
     else{
