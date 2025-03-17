@@ -6,14 +6,14 @@ int main(){
     for(int i=0;i<N;i++){
     scanf("%d",&arr[i]);
 }
-int isAscending=0;
-int isDescending=0;
+int isAscending=1;
+int isDescending=1;
 for(int i=0;i<N-1;i++){
     if(arr[i]<arr[i+1]){
-        isAscending=1;
+        isAscending=0;
     }
     else if(arr[i]>arr[i+1]){
-        isDescending=1;
+        isDescending=0;
     }
 }
  if(isAscending||isDescending){
