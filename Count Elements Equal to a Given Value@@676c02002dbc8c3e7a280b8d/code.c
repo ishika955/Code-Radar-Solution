@@ -12,7 +12,7 @@ int main(){
     for(int i=0;i<N;i++){
         if(arr[i]==K){
              count++;
-         } printf("%d",count); 
-    }  
+         } 
+    }  printf("%d",count); 
     return 0;
 }
