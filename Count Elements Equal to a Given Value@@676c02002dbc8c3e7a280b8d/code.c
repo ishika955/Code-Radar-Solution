@@ -13,7 +13,7 @@ int main(){
          if(i==K){
              count++;
          }
-        
-    } printf("%d",count);
+       printf("%d",count); 
+    } 
     return 0;
 }
