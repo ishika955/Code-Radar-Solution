@@ -18,7 +18,7 @@ int main(){
                     counted[j]=1;
                 }
             }
-         } printf("%d\n",count);
+          printf("%d\n",count);}
         
     }
     return 0;
