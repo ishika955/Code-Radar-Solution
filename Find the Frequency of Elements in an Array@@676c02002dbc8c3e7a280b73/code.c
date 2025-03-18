@@ -10,7 +10,7 @@ int main(){
          int count=0;
         if (arr[i]==arr[i+1]){
             count++;
-        }
-    } printf("%d %d\n",arr[i],count);
+    printf("%d %d\n",arr[i],count);}
+}
     return 0;
 }
