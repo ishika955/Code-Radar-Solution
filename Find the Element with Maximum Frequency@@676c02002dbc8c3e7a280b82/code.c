@@ -17,8 +17,8 @@ int main(){
                     counted[j]=1;
                 }
             }
-          
-printf("%d %d\n",arr[i],count);
+int array[n]=count;     
+printf("%d ",array[n]);
 }
       return 0;  
 }
