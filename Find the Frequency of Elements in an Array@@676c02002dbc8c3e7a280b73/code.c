@@ -6,16 +6,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    for (int i=0;i<n;i++){
+    for (int i=0;i<n-1;i++){
          int count=0;
-        for (int j=0;j<n;j++){
-            if (arr[j]==arr[i]){
-                    count++;
-            }printf("%d %d\n",arr[i],count);
-            break;
+        if (arr[i]==arr[i+1]){
+            count++;
         }
-
-
+        printf("%d %d",arr[i],count);
+        break;
     }
     return 0;
 }
