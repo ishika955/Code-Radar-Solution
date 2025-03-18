@@ -13,12 +13,13 @@ int main(){
         int count=1;
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
-                if(arr[i]==arr[j]){
+                if(arr[j]==arr[i]){
                     count++;
                     counted[j]=1;
                 }
             }
-          printf("%d\n",count);}
+          
+printf("%d\n",count);}
         
     }
     return 0;
