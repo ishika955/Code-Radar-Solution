@@ -9,8 +9,7 @@ int main(){
     for (int i=0;i<n-1;i++){
          int count=0;
         if (arr[i]==arr[i+1]){
-            count++;
+            count+=1;}
     printf("%d %d\n",arr[i],count);}
-}
     return 0;
 }
