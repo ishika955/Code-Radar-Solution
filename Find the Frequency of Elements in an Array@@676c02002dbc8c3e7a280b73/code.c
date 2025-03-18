@@ -5,12 +5,17 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        int counted[i]=0;
     }
     for(int i=0;i<n;i++){
+        if(counted[i]){
+            continue;
+        }
         int count=1;
         for(int j=i+1;j<n;j++){
             if(arr[j]==arr[i]){
                 count++;
+                counted[i]=1;
             }}
             printf("%d %d\n",arr[i],count);
             
