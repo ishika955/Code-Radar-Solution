@@ -19,8 +19,8 @@ int main(){
                 }
             }
           
-printf("%d\n",count);}
+printf("%d %d\n",arr[i],count);}
         
-    }
+}
     return 0;
 }
