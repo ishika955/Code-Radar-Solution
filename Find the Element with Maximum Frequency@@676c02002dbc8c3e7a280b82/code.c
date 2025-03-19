@@ -25,12 +25,14 @@ for(int j=0;j<length;j++){
     list[length]=count;
 
 }
-// int len=sizeof(array[length])/sizeof(array[0]);
-// int larg=arr[0]
-// for(int j=0;j<len;j++){
-
-// }
-printf("%d ",list[length]);}
+int len=sizeof(list[length])/sizeof(list[0]);
+int larg=list[0];
+for(int j=0;j<len;j++){
+    if(larg<list[j]){
+        larg=list[j];
+    }
+}
+printf("%d ",larg);}
       return 0;  
 }
    
