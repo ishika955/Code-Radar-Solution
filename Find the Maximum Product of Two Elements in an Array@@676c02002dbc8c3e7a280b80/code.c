@@ -7,7 +7,7 @@ int main(){
     int counted[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        counted[i]=0
+        counted[i]=0;
     }
     int max=0;
     int mul;
