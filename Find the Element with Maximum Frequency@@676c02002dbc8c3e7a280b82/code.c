@@ -31,7 +31,7 @@ int larg=list[0];
 //     if(larg<list[i]){
 //         larg=list[i];
 //     }
-printf("%d ",len);}
+printf("%d ",larg);}
       return 0;  
 
 }
