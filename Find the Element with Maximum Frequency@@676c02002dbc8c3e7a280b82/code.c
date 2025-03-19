@@ -17,9 +17,13 @@ int main(){
                     counted[j]=1;
                 }
             }
-int array[n]=count;     
-printf("%d ",array[n]);
+int length=sizeof(arr[i])/sizeof(arr[0]);
+int array[length];
+for(int j=0;j<length;j++){
+    array[length]=arr[j]
 }
+printf("%d",array[length]);
+    }
       return 0;  
 }
    
