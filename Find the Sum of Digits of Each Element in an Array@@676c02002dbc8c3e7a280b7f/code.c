@@ -11,8 +11,8 @@ int main(){
         for(int j=0;j<n;j++){
         int r;
         r=arr[j]%10;
-            sum=sum + r;
-            arr[j]=arr[j]/10;
+        sum=sum + r;
+        arr[n]=arr[n]/10;
         }
         printf("%d ",sum);}
     
