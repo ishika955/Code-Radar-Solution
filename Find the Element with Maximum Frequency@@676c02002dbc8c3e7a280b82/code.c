@@ -27,7 +27,7 @@ int len=sizeof(array[length])/sizeof(array[0]);
 // for(int j=0;j<len;j++){
 
 // }
-printf("%d %d",array[length],count);}
+printf("%d %d ",array[length],count);}
       return 0;  
 }
    
