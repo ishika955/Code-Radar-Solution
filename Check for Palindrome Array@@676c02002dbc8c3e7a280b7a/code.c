@@ -7,12 +7,17 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     int array[n];
+    int isPallindrome=1;
     for(int i=0;i<n;i++){
-            arr[i]=array[n-i];
+           if( arr[i]!=array[n-i-1]){
+            isPallindrome=0;
+            break;
+           };
     }
-    if(arr[n]==array[n]){
+    if(isPallindrome){
         printf("YES");
     }
     else{
         printf("NO");
-    }  return 0;}
+    }  
+    return 0;}
