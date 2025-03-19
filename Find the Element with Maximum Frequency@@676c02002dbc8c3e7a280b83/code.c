@@ -9,7 +9,7 @@ int main(){
         counted[i]=0;
     }
     int max=0,maxNum;
-    for(int i=0;i<n,i++){
+    for(int i=0;i<n;i++){
         if(counted[i])continue;
         int count=0;
         for(int j=i+1;j<n;j++){
