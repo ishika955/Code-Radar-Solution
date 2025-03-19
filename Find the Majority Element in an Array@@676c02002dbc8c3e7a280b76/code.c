@@ -11,6 +11,7 @@ int main(){
     int max=0,maxNum;
     if(n==1){
         printf("%d",arr[0]);
+        break;
     }
     for(int i=0;i<n;i++){
         if(counted[i])continue;
