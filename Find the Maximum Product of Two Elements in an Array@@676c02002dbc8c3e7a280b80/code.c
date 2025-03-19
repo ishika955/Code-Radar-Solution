@@ -10,8 +10,8 @@ int main(){
     for(int i=0;i<n;i++){
         int num=abs(arr[i]);
         int sum=1;
-       while(i>n){
-            sum*=num;
+        for(int j=i+1;j<n;j++){
+            sum=sum*num;
         }
         printf("%d ",sum);
     }
