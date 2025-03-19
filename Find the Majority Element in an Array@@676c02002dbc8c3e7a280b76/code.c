@@ -9,6 +9,9 @@ int main(){
     counted[i]=0;
     }
     int max=0,maxNum;
+    if(n==1){
+        printf("%d",arr[0]);
+    }
     for(int i=0;i<n;i++){
         if(counted[i])continue;
         int count=0;
