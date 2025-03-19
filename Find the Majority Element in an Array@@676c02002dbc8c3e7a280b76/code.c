@@ -18,14 +18,13 @@ int main(){
                 counted[j]=1;
              }
         }
-        if((count>max && count>(n/2))){
+        if(count>max){
             max=count;
             maxNum=arr[i];
         }
-        else if(count<(n/2)){
+    } if(count<(n/2)){
             printf("-1");
-        }
-    }
-        printf("%d",maxNum);
+    }else{
+        printf("%d",maxNum);}
     return 0;
 }
