@@ -3,6 +3,7 @@ int main(){
     int n;
     scanf("%d",&n);
     int counted[n];
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         counted[i]=0;
