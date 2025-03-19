@@ -22,7 +22,12 @@ int array[length];
 for(int j=0;j<length;j++){
     array[length]=arr[i];
 }
-printf("%d %d\n",array[length],count);}
+int len=sizeof(array[length])/sizeof(array[0]);
+// int larg=
+// for(int j=0;j<len;j++){
+
+// }
+printf("%d %d",array[length],count);}
       return 0;  
 }
    
