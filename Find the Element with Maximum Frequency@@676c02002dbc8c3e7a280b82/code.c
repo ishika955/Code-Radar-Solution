@@ -16,8 +16,8 @@ int main(){
                     count++;
                     counted[j]=1;
                 }
-            }}
-int length=sizeof(arr[i])/sizeof(arr[0]);
+            }
+int length=sizeof(arr[i])/sizeof(arr[0]);}
 int array[length];
 int list[length];
 for(int j=0;j<length;j++){
