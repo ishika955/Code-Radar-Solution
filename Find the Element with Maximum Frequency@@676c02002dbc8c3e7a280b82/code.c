@@ -23,8 +23,8 @@ int main(){
             if(count>max){
                 max=count;
                 maxNum=arr[i];
-            }
+            }}
     printf("%d",maxNum);
-}
+
             return 0;
 }
