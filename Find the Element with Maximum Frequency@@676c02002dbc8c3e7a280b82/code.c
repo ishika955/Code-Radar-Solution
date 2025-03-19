@@ -8,7 +8,8 @@ int main(){
         scanf("%d",&arr[i]);
         counted[i]=0;
     }
-    int max=0;maxNum;
+    int max=0;
+    int maxNum;
     for(int i=0;i<n;i++){
         if(counted[i])continue;
         int count=1;
@@ -25,4 +26,5 @@ int main(){
             }
     printf("%d",maxNum);
 }
-            return 0;}
+            return 0;
+}
