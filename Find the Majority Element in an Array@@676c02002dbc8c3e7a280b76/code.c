@@ -22,9 +22,9 @@ int main(){
             max=count;
             maxNum=arr[i];
         }
-    } if(max<(n/2)){
-            printf("-1");
+    } if(max>(n/2)){
+          printf("%d",maxNum); 
     }else{
-        printf("%d",maxNum);}
+         printf("-1");}
     return 0;
 }
