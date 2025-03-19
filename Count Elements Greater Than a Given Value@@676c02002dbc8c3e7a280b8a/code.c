@@ -13,7 +13,6 @@ int main(){
         if(arr[i]>K){
             count++;
         }
-        printf("%d",count);
-    }
+    }   printf("%d ",count);
     return 0;
 }
