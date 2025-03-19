@@ -20,9 +20,9 @@ int main(){
         }
         if((count>max)&& (count>(n/2))){
             max=count;
-            maxnum=arr[i];
+            maxNum=arr[i];
         }
     }
-        printf("%d",max);
+        printf("%d",maxNum);
     return 0;
 }
