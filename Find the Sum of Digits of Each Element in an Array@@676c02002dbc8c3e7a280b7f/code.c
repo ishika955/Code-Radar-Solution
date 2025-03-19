@@ -8,11 +8,10 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int sum=0;
-        for(int j=0;j<n;j++){
-        int r;
-        r=arr[j]%10;
-        sum=sum + r;
-        arr[n]=arr[n]/10;
+        int num=arr[i];
+        while(num>0){
+            sum+=num%10;
+            num/=10;
         }
         printf("%d ",sum);}
     
