@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<n;i++){
         int num=arr[i];
         int sum=1;
-        for(j=i+1;j<n;j++){
+        for(int j=i+1;j<n;j++){
             sum*=num;
         }
         printf("%d ",sum);
