@@ -17,7 +17,7 @@ int main(){
         if(mul>max){
             max=mul;
         }
-        printf("%d ",max);
-    }
+       
+    } printf("%d ",max);
     return 0;
 }
