@@ -9,7 +9,7 @@ int main(){
     int array[n];
     int isPallindrome=1;
     for(int i=0;i<n;i++){
-           if( arr[i]!=array[n-i-1]){
+           if( arr[i]!=arr[n-i-1]){
             isPallindrome=0;
             break;
            };
