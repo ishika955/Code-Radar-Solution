@@ -19,15 +19,18 @@ int main(){
             }
 int length=sizeof(arr[i])/sizeof(arr[0]);
 int array[length];
+int list[length];
 for(int j=0;j<length;j++){
     array[length]=arr[i];
+    list[length]=count;
+
 }
-int len=sizeof(array[length])/sizeof(array[0]);
-// int larg=
+// int len=sizeof(array[length])/sizeof(array[0]);
+// int larg=arr[0]
 // for(int j=0;j<len;j++){
 
 // }
-printf("%d %d ",array[length],count);}
+printf("%d %d ",array[length],list[length]);}
       return 0;  
 }
    
