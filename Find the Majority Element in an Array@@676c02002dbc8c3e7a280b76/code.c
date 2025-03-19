@@ -22,7 +22,7 @@ int main(){
             max=count;
             maxNum=arr[i];
         }
-        else{
+        else if(count<(n/2)){
             printf("-1");
         }
     }
