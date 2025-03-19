@@ -16,7 +16,7 @@ int main(){
                     count++;
                     counted[j]=1;
                 }
-            }
+            }}
 int length=sizeof(arr[i])/sizeof(arr[0]);
 int array[length];
 int list[length];
@@ -24,10 +24,9 @@ for(int j=0;j<length;j++){
     array[length]=arr[i];
     list[length]=count;
 
-}
-int len=sizeof(list[length])/sizeof(list[0]);
+}int len=sizeof(list[length])/sizeof(list[0]);
 int larg=list[0];
-printf("%d ",larg);}
+printf("%d ",larg);
       return 0;  
 
 }
