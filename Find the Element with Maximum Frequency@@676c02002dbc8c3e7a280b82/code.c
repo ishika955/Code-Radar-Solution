@@ -8,6 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
         counted[i]=0;
     }
+    int max=0;maxNum;
     for(int i=0;i<n;i++){
         if(counted[i])continue;
         int count=1;
@@ -16,18 +17,12 @@ int main(){
                     count++;
                     counted[j]=1;
                 }
+
             }
-int length=sizeof(arr[i])/sizeof(arr[0]);
-int array[length];
-int list[length];
-for(int j=0;j<length;j++){
-    array[length]=arr[i];
-    list[length]=count;
-
-}int len=sizeof(list[length])/sizeof(list[0]);
-int larg=list[0];
-printf("%d ",larg);}
-      return 0;  
-
+            if(count>max){
+                max=count;
+                maxNum=arr[i];
+            }
+    printf("%d",maxNum);
 }
-   
+            return 0;}
