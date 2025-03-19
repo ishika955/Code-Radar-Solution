@@ -31,8 +31,7 @@ for(int j=0;j<len;j++){
     if(larg<list[j]){
         larg=list[j];
     }
-}
-printf("%d ",larg);}
+printf("%d ",larg);}}
       return 0;  
 }
    
