@@ -18,9 +18,12 @@ int main(){
                 counted[j]=1;
              }
         }
-        if((count>max)&& (count>(n/2))){
+        if((count>max && count>(n/2))){
             max=count;
             maxNum=arr[i];
+        }
+        else{
+            printf("-1");
         }
     }
         printf("%d",maxNum);
