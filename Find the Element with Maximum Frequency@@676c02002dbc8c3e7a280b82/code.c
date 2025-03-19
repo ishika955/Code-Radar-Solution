@@ -22,8 +22,8 @@ int array[length];
 for(int j=0;j<length;j++){
     array[length]=arr[j];
 }
-printf("%d",array[length]);
-    }
+
+ }printf("%d",array[length]);
       return 0;  
 }
    
