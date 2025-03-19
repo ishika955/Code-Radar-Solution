@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<n;i++){
             arr[i]=array[n-i];
     }
-    if(arr[i]==array[j]){
+    if(arr[n]==array[n]){
         printf("YES");
     }
     else{
