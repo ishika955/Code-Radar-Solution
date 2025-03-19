@@ -27,11 +27,11 @@ for(int j=0;j<length;j++){
 }
 int len=sizeof(list[length])/sizeof(list[0]);
 int larg=list[0];
-for(int j=0;j<len;j++){
-    if(larg<list[j]){
-        larg=list[j];
+for(int i=0;i<len;i++){
+    if(larg<list[i]){
+        larg=list[i];
     }
-printf("%d ",larg);}}
+printf("%d",larg);}}
       return 0;  
 }
    
