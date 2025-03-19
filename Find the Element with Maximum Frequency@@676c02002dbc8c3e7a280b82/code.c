@@ -22,7 +22,7 @@ int array[length];
 for(int j=0;j<length;j++){
     array[length]=arr[i];
 }
-printf("%d ",array[length]),count;}
+printf("%d %d\n",array[length],count);}
       return 0;  
 }
    
