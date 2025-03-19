@@ -8,9 +8,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int max=0;
+    int mul;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-           int mul;
            mul=abs(arr[i])*abs(arr[j]);
 
         }
