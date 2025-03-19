@@ -8,15 +8,11 @@ int main(){
     }
     int array[n];
     for(int i=0;i<n;i++){
-         for(int j=n;j<0;j++){
-            printf("%d",array[j]);
-         }
-    
+            arr[i]=array[n-i];
+    }
     if(arr[i]==array[j]){
         printf("YES");
     }
     else{
         printf("NO");
-    }}
-    return 0;
-}
+    }  return 0;}
