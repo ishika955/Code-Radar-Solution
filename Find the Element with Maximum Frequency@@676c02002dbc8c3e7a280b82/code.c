@@ -30,7 +30,7 @@ for(int j=0;j<length;j++){
 // for(int j=0;j<len;j++){
 
 // }
-printf("%d %d ",array[length],list[length]);}
+printf("%d",list[length]);}
       return 0;  
 }
    
